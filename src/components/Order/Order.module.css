@@ -1,0 +1,80 @@
+.mainOrder {
+  margin-top: 25px;
+  margin-left: 600px;
+  border: 1px solid rgb(201, 196, 196);
+  padding: 7px;
+  width: 300px;
+}
+.name {
+  font-size: 21px;
+  margin-left: 125px;
+  margin-bottom: 7px;
+}
+img {
+  width: 290px;
+  margin-left: 8px;
+}
+.price {
+  font-size: 21px;
+  margin-left: 125px;
+  margin-bottom: 7px;
+}
+.btnControl {
+  margin-top: 10px;
+  /* margin-left: 60px; */
+}
+.btnBuy {
+  padding: 10px 20px;
+  border: 1px solid black;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+  margin-left: 18px;
+  margin-bottom: 7px;
+}
+.btnOff {
+  padding: 10px;
+  border: 1px solid black;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+  margin-left: 85px;
+  margin-bottom: 7px;
+}
+.btnSet {
+  padding: 10px;
+  border: 1px solid black;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+  margin-left: 75px;
+  margin-bottom: 7px;
+}
+.btnOff {
+  padding: 10px;
+  border: 1px solid black;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+  margin-left: 55px;
+  margin-bottom: 7px;
+}
+form {
+  margin-top: 25px;
+  margin-left: 550px;
+}
+input {
+  border: 1px solid black;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+  margin-top: 5px;
+  margin-left: 65px;
+  margin-bottom: 7px;
+  padding: 5px;
+}

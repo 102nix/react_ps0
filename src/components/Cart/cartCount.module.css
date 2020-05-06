@@ -1,0 +1,44 @@
+.catalogCart {
+  display: grid;
+  grid-template-columns: repeat(3, 330px);
+  margin-top: 75px;
+  margin-left: 325px;
+}
+.catalogOneCart {
+  display: grid;
+  grid-template-columns: repeat(3, 330px);
+  margin-top: 75px;
+  margin-left: 600px;
+}
+.catalogTwoCart {
+  display: grid;
+  grid-template-columns: repeat(3, 330px);
+  margin-top: 75px;
+  margin-left: 470px;
+}
+.name {
+  font-size: 21px;
+  margin-left: 95px;
+  margin-bottom: 7px;
+}
+.price {
+  font-size: 21px;
+  margin-left: 125px;
+  margin-bottom: 7px;
+}
+/* .btnControl {
+  margin-left: 21px;
+} */
+.btn {
+  padding: 10px;
+  border: 1px solid black;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+  margin-left: 5px;
+  margin-bottom: 7px;
+}
+ a {
+   text-decoration: none;
+ } 

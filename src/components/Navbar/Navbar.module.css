@@ -1,0 +1,70 @@
+nav {
+  background: #343a40;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+}
+
+.logo {
+  color: #fff;
+  font-size: 20px;
+  /* float: left; */
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  /* margin-right: 1rem; */
+  margin-top: 25px;
+  margin-left: 30px;
+}
+
+.menu {
+  display: grid;
+  grid-template-columns: repeat(4, 200px);
+  grid-template-rows: 25px 25px;
+  /* grid-column-gap: 0;
+  grid-row-gap: 5px; */
+  text-align: center;
+  /* margin-left: 270px; */
+  /* float: left; */
+  cursor: pointer;
+  list-style-type: none;
+  padding: 20px 0;
+}
+
+.menu a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.menu a.active {
+  color: rgb(248, 203, 112);
+  font-weight: bold;
+}
+
+.menu a:hover {
+  color: rgb(133, 138, 138);
+}
+
+.authBlock {
+  font-size: 20px;
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-top: 25px;
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+.authBlock a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.authBlock a:hover {
+  color: rgb(133, 138, 138);
+}
+
+.logout {
+  color: #fff;
+}
+
+.loginReg span {
+  color: #fff;
+}

@@ -1,0 +1,64 @@
+.catalog {
+  display: grid;
+  grid-template-columns: repeat(3, 330px);
+  margin-left: 325px;
+}
+.name {
+  font-size: 21px;
+  margin-left: 35px;
+  margin-bottom: 7px;
+}
+.price {
+  font-size: 21px;
+  margin-left: 125px;
+  margin-bottom: 7px;
+}
+.btn {
+  padding: 10px;
+  border: 1px solid black;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+  margin-left: 65px;
+  margin-bottom: 7px;
+}
+.wrapperElement {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.blogPages {
+  padding: 20px;
+  margin-left: 750px;
+  font-size: 25px;
+  cursor: pointer;
+}
+.blogPages span {
+  margin-left: 5px;
+}
+.goBackgoForward {
+  font-size: 25px;
+  cursor: pointer;
+  border: none;
+}
+.selected {
+  font-weight: bold;
+}
+.linkToCart {
+  text-decoration: none;
+  color: black;
+}
+.linkToCart:hover {
+  color: rgb(123, 129, 134);
+}
+.cartCountBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-left: 1350px;
+  width: 120px;
+  padding: 10px 0;
+  margin-bottom: 7px;
+}
